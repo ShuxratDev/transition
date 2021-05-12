@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.number button {
+    background-color: coral;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 0 rgb(92, 89, 89);
+    width: 180px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    transition-duration: 1s;
+    
+}   
+.number button:hover {
+    background-color:rgb(97, 179, 255);
+    box-shadow: 0 6px 0 rgb(92, 89, 89);
+    width: 230px;
+    height: 70px;
+    transition-duration: 0.55s;
+    transition-timing-function: ease-out;
+    transition-property: all;
+}
+
+
+
+
+.number {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.krug {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 15%;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-property: all;
+}
+.krug:hover {
+    background-color: green;
+    transition-duration: 2s;
+    transition-property: all;
+    transition-timing-function: linear;
+    width: 300px;
+
+}
+.krug h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.treugolnik {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    transition-duration: 1s;
+    transition-property: all;
+    margin-top: 20px;
+    border-radius: 15%;
+
+
+}
+.treugolnik:hover {
+    background-color: red;
+    transition-duration: 2s;
+    width: 300px;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}
